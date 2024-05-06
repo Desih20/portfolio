@@ -17,11 +17,50 @@ header.primary h1{
 
 #intro.container h2{
   text-align:center;
+  font-size:40px;
 }
 
 #intro.container img{
   border: solid 5px purple;
-  border-radius: 5px;;
+  border-radius: 5px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.table-of-content{
+  background:purple;
+  max-width:600px;
+  margin:auto;
+  margin-top:50px;
+  border-radius:5px;
+  padding:30px;
+}
+
+.table-of-content h3{
+  text-align:center;
+  font-size:30px;
+  color:white;
+}
+
+.headings-container ol li{
+  color:white;
+  font-size:25px;
+}
+
+.headings-container ol li a{
+  font-size:25px;
+  color:white;
+}
+
+h4{
+  font-size:25px;
+  text-align:center;
+}
+
+p{
+  font-size:18px;
+  text-align:center;
 }
 
 #colophon{
