@@ -52,6 +52,17 @@ header.primary h1{
 .headings-container ol li a{
   font-size:25px;
   color:white;
+  line-height:50px;
+}
+
+figcaption{
+  margin-top:15px;
+  text-align:center;
+  font-style:italic;
+}
+
+figcaption a{
+  font-style:normal;
 }
 
 h4{
@@ -64,6 +75,7 @@ p{
   text-align:justify;
   max-width:600px;
   margin:auto;
+  margin-bottom:80px;
 }
 
 #colophon{
