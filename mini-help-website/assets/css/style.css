@@ -78,6 +78,110 @@ p{
   margin-bottom:80px;
 }
 
+.topic1{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.topic2{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.topic3{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.topic4{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.topic5{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.topic6{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.topic7{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
+.topic8{
+  max-width:600px;
+  margin:auto;
+  text-align:center;
+  background:purple;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  color:white;
+  font-size:20px;
+  border-radius:5px;
+}
+
 #colophon{
   text-align:center;
   background-color: pink;
