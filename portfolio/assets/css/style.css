@@ -1,0 +1,109 @@
+/* Home Page */
+
+.header {
+    overflow: hidden;
+    background-color: #7B3F00;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: white;
+    color: #7B3F00;
+  }
+  
+  .header a.active {
+    background-color: white;
+    color: #7B3F00;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+
+/* Pricing Page */
+
+* {
+    box-sizing: border-box;
+  }
+
+h2{
+    text-align:center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align:center;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #C19A6B;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgb(193, 154, 107)
+  }
+  
+  .price .header {
+    background-color: #7B3F00;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #C19A6B;
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
