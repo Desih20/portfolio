@@ -16,10 +16,9 @@
     line-height: 25px;
     border-radius: 4px;
   }
-  
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
+   
+  .header.logo{
+    size:50px;
   }
   
   .header a:hover {
@@ -106,4 +105,16 @@ p{
     .columns {
       width: 100%;
     }
+  }
+
+  #colophon{
+      overflow: hidden;
+      background-color: #7B3F00;
+      padding: 20px 10px;
+    }
+
+  #colophon{
+    color:white;
+    font-size:25px;
+    text-align:center;
   }
