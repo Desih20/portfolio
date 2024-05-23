@@ -118,11 +118,13 @@ p{
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
+    color:#7B3F00
   }
   
   .price .grey {
     background-color: #C19A6B;
     font-size: 20px;
+    color:white;
   }
   
   @media only screen and (max-width: 600px) {
