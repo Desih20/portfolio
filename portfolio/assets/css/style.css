@@ -40,14 +40,25 @@
 .home h1.title{
   font-size:80px;
   color:#7B3F00;
+  font-family: 'Meldina', sans-serif;   
 }
 
 /* About Page */
-
+.about-heading{
+  text-align: center;
+  color:#7B3F00;
+  font-size: 40px;
+  font-family: 'Meldina', sans-serif;         
+}
 
 /* Portfolio Page */
 
-
+.portfolio-heading{
+  text-align:center;
+  font-size:40px;
+  color:#7B3F00;
+  font-family: 'Meldina', sans-serif;   
+}
 
 /* Pricing Page */
 
@@ -55,16 +66,26 @@
     box-sizing: border-box;
   }
 
+.pricing-heading{
+  text-align: center;
+  color:#7B3F00;
+  font-size:40px;
+  font-family: 'Meldina', sans-serif;   
+}
+
 h2{
     text-align:center;
+    color: #7B3F00;
 }
 
 h3{
     text-align: center;
+    color:#7B3F00
 }
 
 p{
     text-align:center;
+    color:#7B3F00;
 }
 
 .columns {
