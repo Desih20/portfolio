@@ -1,5 +1,5 @@
 /* Home Page */
-.header{
+.navheader{
   display:flex;
   background-color: #7B3F00;
 }
@@ -96,6 +96,7 @@ p{
     width: 33.3%;
     padding: 8px;
   }
+
 
   .price {
     list-style-type: none;
