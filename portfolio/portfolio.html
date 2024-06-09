@@ -9,6 +9,7 @@
     <meta name="author" content="Destin Hill">
     <link href="https://fonts.cdnfonts.com/css/meldina" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
 
@@ -26,25 +27,67 @@
       
       <h2 class="portfolio-heading">My Work</h2>
 
-      <div class="flex-container">
-        <div>
-          <h3 class="section-heading">Logos</h3>
-          <button onclick="location.href=''">Animal Logo</button>
-          <button onclick="location.href=''">Redesign Company Logo</button>
-          <button onclick="location.href=''">Photography Logo</button>
-          <button type="button"><img src="assets/img/videologo2.png">Learn more!</a></button>
-        </div>
-        <div>
-          <h3 class="section-heading">Video Editing</h3>
-        </div>
-        <div>
-          <h3 class="section-heading">Posters/Fliers</h3>
-        </div>
-        <div>
-          <h3 class="section-heading">Websites</h3>
-        </div>   
-      </div>
-
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4"
+                 class="carousel__prev">Go to last slide</a>
+              <a href="#carousel__slide2"
+                 class="carousel__next">Go to next slide</a>
+            </div>
+          </li>
+          <li id="carousel__slide2"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide3"
+               class="carousel__next">Go to next slide</a>
+          </li>
+          <li id="carousel__slide3"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide4"
+               class="carousel__next">Go to next slide</a>
+          </li>
+          <li id="carousel__slide4"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide1"
+               class="carousel__next">Go to first slide</a>
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1"
+                 class="carousel__navigation-button">Go to slide 1</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2"
+                 class="carousel__navigation-button">Go to slide 2</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3"
+                 class="carousel__navigation-button">Go to slide 3</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4"
+                 class="carousel__navigation-button">Go to slide 4</a>
+            </li>
+          </ol>
+        </aside>
+      </section>
 
       <footer id="colophon" role="contentinfo">
         <h6>
