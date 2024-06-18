@@ -106,6 +106,15 @@ button{
   font-family: 'Meldina', sans-serif;
 }
 
+button a{
+  text-decoration:none;
+  color:#7B3F00;
+}
+
+button a:hover{
+  color:white;
+}
+
 button:hover{
   background: #7B3F00;
   color:white;
@@ -116,6 +125,10 @@ button:hover{
 
 .resume{
   margin-left: 0.5em;
+}
+
+.work{
+  margin-left:0.5em;
 }
 
 hr{
