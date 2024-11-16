@@ -9,21 +9,28 @@
     <meta name="author" content="Destin Hill">
     <link href="https://fonts.cdnfonts.com/css/meldina" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
 
-    <div class="navheader">
-        <a href="index.html" class="logo" target="_blank">
-        <img src="assets/img/BrandLogo.png" alt="Brand logo">
-        </a>
-        <div class="header-right">
-          <a class="active" href="about.html">About</a>
-          <a href="portfolio.html">My Work</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </div>
-<h2 class="pricing-heading">My Prices</h2>
+  <nav>
+    <div class="logo">
+    <img src="assets/img/BrandLogo.png">
+    </div>
+    <ul id="menuList">
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="pricing.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+     </nav>
+    
+     <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+<h2 class="pricing-heading">My Services</h2>
     <h2>Limited Time Packages</h2>
     <h3>Fees:</h3>
     <p>Last Minute Changes: $50</p>

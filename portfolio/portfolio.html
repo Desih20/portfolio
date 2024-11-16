@@ -11,20 +11,26 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
 
-    <div class="navheader">
-      <a href="index.html" class="logo" target="_blank">
-        <img src="assets/img/BrandLogo.png" alt="Brand logo">
-        </a>
-        <div class="header-right">
-          <a href="about.html">About</a>
-          <a href="portfolio.html">My Work</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </div>
+  <nav>
+    <div class="logo">
+    <a href="index.html"><img src="assets/img/BrandLogo.png"></a>
+    </div>
+    <ul id="menuList">
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="pricing.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+     </nav>
+    
+     <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
       
       <h2 class="portfolio-heading">My Work</h2>
       <div class="fade container">
