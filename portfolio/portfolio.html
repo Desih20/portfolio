@@ -33,24 +33,31 @@
      <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
       
       <h2 class="portfolio-heading">My Work</h2>
-      <div class="fade container">
-        <div><img src="assets/img/Clark Exterminating Co., Inc. (2).png"></div>
-        <div><img src="assets/img/Clark Exterminating Co., Inc. (1).png"></div>
-        <div><img src="assets/img/Clark Exterminating Co., Inc..png"></div>
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('group')"> Group Projects</button>
+        <button class="btn" onclick="filterSelection('calculator')"> Calculators</button>
+        <button class="btn" onclick="filterSelection('assignment')"> Assignments</button>
+        <button class="btn" onclick="filterSelection('web')"> My Websites</button>
       </div>
-    
-      <div class="fade container2">
-        <div><img src="assets/img/Clark Exterminating Co., Inc. (2).png"></div>
-        <div><img src="assets/img/Clark Exterminating Co., Inc. (1).png"></div>
-        <div><img src="assets/img/Clark Exterminating Co., Inc..png"></div>
+      
+      <div class="container">
+        <div class="filterDiv group"><a href="https://masonmohler.github.io/ITEC3650Project/index.html"><img src="assets/img/ParkSiteScreenshot.png"></a>Newton County Adventure Co</div>
+        <div class="filterDiv group"><img src="assets/img/DesktopScreenshot.png">De' Medici Foundation</div>
+        <div class="filterDiv calculator"><img src="assets/img/JSCalculatorScreenshot.png">JavaScript Calculator</div>
+        <div class="filterDiv calculator"><a><img src="assets/img/CircleCalculatorScreenshot.png"></a>Circle Calculator</div>
+        <div class="filterDiv group"><a href="https://desih20.github.io/ITEC-3610/prototype/index.html"><img src="assets/img/PrototypeScreenshot.png"></a>Prototype</div>
+        <div class="filterDiv assignment"><a href="https://desih20.github.io/ITEC-3610/cheatsheet/index.html"><img src="assets/img/HTMLCheatsheet.png"></a>HTML Cheatsheet</div>
+        <div class="filterDiv assignment"><a href="https://desih20.github.io/ITEC-3610/cheatsheet2/index.html"><img src="assets/img/HTMLCheatsheet2.png"></a>HTML Cheatsheet 2</div>
+        <div class="filterDiv assignment"><a href="https://desih20.github.io/ITEC-3610/slick-demo/index.html"><img src="assets/img/SlideshowScreenshot.png"></a>Slideshow</div>
+        <div class="filterDiv web"><a href="https://desih20.github.io/ITEC-3610/photography/index.html"><img src="assets/img/MicrositeScreenshot_New.png"></a>Photographer Microsite</div>
+        <div class="filterDiv web"><a href=""><img src="assets/img/2024-11-17_18h42_24.png"></a>Mini Help Site</div>
+        <div class="filterDiv assignment"><a href="https://desih20.github.io/ITEC-3610/unitsconversion/index.html"><img src="assets/img/AJAXConverterScreenshot.png"></a>AJAX Unit Converter</div>
+        <div class="filterDiv assignment"><a href="https://desih20.github.io/ITEC-3610/currency/index.html"><img src="assets/img/CurrencyScreenshot.png"></a>Currency Value History</div>
+        <div class="filterDiv assignment"><a href="https://desih20.github.io/ITEC-3610/validation/index.html"><img src="assets/img/ValidationScreenshot.png"></a>Validation</div>
+        <div class="filterDiv assignment"><a href="https://desih20.github.io/ITEC-3610/css-demo/index.html"><img src="assets/img/CSSDemoScreenshot.png"></a>CSS Demo</div>
       </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/prism.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <br>
-    <br>
+      
 
       <footer id="colophon" role="contentinfo">
         <h6>
