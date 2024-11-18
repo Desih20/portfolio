@@ -378,7 +378,7 @@ h4{
   text-align:center;
   font-size:40px;
   color:#7B3F00;
-  font-family: 'Meldina', sans-serif;   
+  font-family: 'Meldina', sans-serif;
 }
 
 img{
@@ -417,6 +417,7 @@ img{
 
 #myBtnContainer{
   display:flex;
+  flex-flow:row wrap;
   justify-content:center;
 }
 
@@ -524,12 +525,12 @@ p{
 #colophon{
   overflow:hidden;
   padding:20px 10px;
-  background-color: #7B3F00;
+  background-color: #7B3F00;      
 }
 
-#colophon{
+#colophon h6{
   color:white;
-  font-size:25px;
+  font-size:10px;
   text-align:center;
   font-family: 'Meldina', sans-serif; 
 }
