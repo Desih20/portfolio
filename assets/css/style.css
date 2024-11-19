@@ -9,11 +9,13 @@
     color: white;
   letter-spacing: 1px;
   font-size: 20px;
-  position:relative;
   top: 250px;
   font-size: 50px;
   font-family:'Meldina', sans-serif; 
   text-decoration: none;
+  display:flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 
