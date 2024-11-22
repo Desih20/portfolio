@@ -85,6 +85,7 @@ nav ul li a{
   font-size:100px;
   color:#7B3F00;
   font-family: 'Meldina', sans-serif;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -582,7 +583,7 @@ p{
 #colophon{
   overflow:hidden;
   padding:20px 10px;
-  background-color: #7B3F00;      
+  background-color: #7B3F00;
 }
 
 #colophon h6{
