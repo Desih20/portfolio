@@ -95,6 +95,13 @@ nav ul li a{
   }
 }
 
+@media (max-width:600px){
+  .home{
+  position:absolute;
+  flex-direction:column;
+  }
+}
+
 /* About Page */
 .about-heading{
   text-align: center;
@@ -146,7 +153,7 @@ nav ul li a{
 button{
   background:transparent;
   color:#7B3F00;
-  font-size:16px;
+  font-size:14px;
   text-decoration:none;
   border:2px solid #7B3F00;
   font-weight: bold;
@@ -184,6 +191,7 @@ button:hover{
 hr{
   border:5px solid #7B3F00;
   width:85%;
+  margin:auto;
 }
 
 .skills-heading{
@@ -371,6 +379,30 @@ h4{
   }
   100%{
     width:45%;
+  }
+}
+
+@media (max-width:600px){
+  .main{
+  position:absolute;
+  flex-direction:column;
+  }
+  .about-text h3{
+    font-size: 20px;
+  }
+  .about-text p{
+    font-size: 12px;
+  }
+  button{
+    font-size:8px;
+    align-items: center;
+    margin-left:25px;
+  }
+}
+
+@media (max-width:600px){
+  hr{
+    margin-top:120px;
   }
 }
 
