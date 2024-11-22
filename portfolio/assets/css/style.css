@@ -144,7 +144,7 @@ nav ul li a{
 
 .about-text p{
   color:#7B3F00;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height:28px;
   font-size: 18px;
   margin-bottom:45px;
@@ -186,6 +186,27 @@ button:hover{
 
 .work{
   margin-left:0.5em;
+}
+
+.about-text a img{
+  width:30px;
+  height:30px;
+  border-style: none;
+}
+
+
+.social{
+  font-size:16px;
+  font-family: 'Meldina', sans-serif;
+  display:flex;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.social a{
+  margin-top: 15px;
+  text-decoration: none;
+  color: #7B3F00;
 }
 
 hr{
@@ -231,6 +252,7 @@ h4{
   box-shadow: 0 1px 3px #7B3F00, 0 1px 2px #7B3F00;
   transition:all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+
 
 .bar:hover{
   box-shadow: 0 14px 28px #7B3F00, 0 10px 10px #7B3F00;
